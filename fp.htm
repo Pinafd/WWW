@@ -7,44 +7,101 @@
             src:url(MerryChristmasStar.ttf)
 }
     @font-face {
-        font-family: ;
-        src: url();
+        font-family:cnavidad ;
+        src: url(Christmas\ Squad\ -\ Personal\ Use.otf);
     }
-.titulo{
+    @font-face {
+        font-family: snavidad;
+        src: url(Santa\ Natale\ PERSONAL\ USE\ ONLY!.ttf);
+    }
+body{
+        text-align: center;
+        background-color:#d5cbc9;
+}
+
+    .titulo{
+
+    
             font-family: navidad;
-            font-size: 550%;
+            font-size: 600%;
              display: inline-block; 
               background: linear-gradient(to bottom,
         green 0%,
         #896b49 70%,
         #6d4c41 110%);
         text-shadow: 10px 10px 12px rgba(200, 50, 50, 0.3);
+           
 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
     background-clip: text;
     color: transparent;
+
+     display: block;
+    margin: 0 auto;
+}
+.lugares {
+    font-family: cnavidad;
+    font-size: 150%;
+    column-count: 2;           
+    column-gap: 350px;         
+    width: 35%;                
+    margin: 0 auto;           
+    text-align: left;          
 }
 
+.lugares div {
+    margin-bottom: 150px;      
+}
+      .columna1{
+        text-align: left;
+        flex-direction: column;
+}      
+.columna2{
+        text-align: left;
+        flex-direction: column;
+}      
+.bot-hall{
+        position: absolute;
+        left: 600px;
+        top: 155px;
+        width: 100px;
+        height: 500px;
+        background-image:url(regalo2-removebg-preview.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+
+}
+
+
+
 </style>
+    
 <title> PROGRAMACIÓN FIESTA NAVIDAD </title>
-<div class="titulo">
-     Fiesta de Navidad ies Elaios 
-</div>
 
 </head>
 <body>
+    
+<div class="titulo">
+     Fiesta de Navidad ies Elaios 
+     </div>
+
   <div class="lugares">
+    <div class="columna1">
         <div>Hall</div>
-        <div>Biblioteca</div>
-        <div>Aula 1ºESO C</div>
-        <div>Aula de Música</div>
-        <div>TIC 1</div>
-        <div>TIC 2</div>
-        <div>Aula de Dibujo</div>
-        <div>Pista de Fútbol</div>
-        <div>Sala</div>
+        <div class="bot-hall" onclick="location.href='hall.htm';"></div>
+        <div class="bot-bl">Biblioteca</div>
+        <div class="bot-ad">Aula de Dibujo</div>
+        <div class="bot-am">Aula de Música</div>
+    </div>
+    <div class="columna2">
+        <div class="bot-tc">TIC - 1</div>
+        <div class="bot-t">TIC - 2</div>
+        <div class="bot-a1">Aula 1ºESO C</div>
+        <div class="bot-pf">Pista de Fútbol Sala</div>
+    </div>
+        
   </div>  
 
 
